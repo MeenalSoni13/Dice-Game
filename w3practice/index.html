@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Changes in HTML</h1>
+    <p id = "demo">JavaScript can change HTML content.</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello javascript!!!"'>click me</button>
+
+    <h1>Changes in CSS</h1>
+    <p id = "first">JavaScript can change CSS content</p>
+    <button type = "button" onclick="document.getElementById('first').style.fontSize = '35px'">Click here</button>
+
+    <h1>Hide HTML Elements</h1>
+    <p id = "demo1">javascript can Hide Html Elements</p>
+    <button type="button" onclick="document.getElementById('demo1').style.display='none'">Click Me!</button>
+
+    <h1>Block Html Elements</h1>
+    <p id="demo2" style="display:none">javacript can block html elements</p>
+    <button type = "button" onclick="document.getElementById('demo2').style.display = 'block'">Click Me!!!!</button>
+      
+      <p id="third">use of javascript tag</p>
+     <script>
+       document.getElementById('third').innerHTML="javascript!!!"
+     </script>
+
+</body>
+</html>
+
